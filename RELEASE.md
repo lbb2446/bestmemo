@@ -1,4 +1,4 @@
-# Memo Timeline Feed v1.0.0
+# Memo Timeline Feed 1.0.0
 
 ## Highlights
 

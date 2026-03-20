@@ -3,7 +3,7 @@
   "name": "Memo Timeline Feed",
   "version": "1.0.0",
   "minAppVersion": "1.5.0",
-  "description": "Display #timeline notes, diary-style feeds, and image-only galleries in a polished Obsidian view.",
+  "description": "Display #timeline notes, diary-style feeds, and image-only galleries in a polished note view.",
   "author": "lbb2445",
   "authorUrl": "https://github.com/lbb2446/bestmemo",
   "isDesktopOnly": false

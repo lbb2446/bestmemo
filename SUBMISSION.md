@@ -21,6 +21,8 @@ Add plugin: Memo Timeline Feed
 ## Pull Request Description
 
 ```md
+<!-- Keep the upstream PR template structure. Only fill in the fields and checkboxes. -->
+
 ## Summary
 
 Adds `Memo Timeline Feed`, an Obsidian plugin for browsing notes in three visual modes:
@@ -32,7 +34,7 @@ Adds `Memo Timeline Feed`, an Obsidian plugin for browsing notes in three visual
 ## Repository
 
 - Repo: https://github.com/lbb2446/bestmemo
-- Release tag: v1.0.0
+- Release tag: 1.0.0
 
 ## Checklist
 
@@ -46,8 +48,8 @@ Adds `Memo Timeline Feed`, an Obsidian plugin for browsing notes in three visual
 ## Submission Steps
 
 1. Push `main` and `v1.0.0` to GitHub.
-2. Create a GitHub release with tag `v1.0.0`.
+2. Create a GitHub release with tag `1.0.0`.
 3. Upload `main.js`, `manifest.json`, and `styles.css` as release assets.
 4. Fork or open the Obsidian community plugins repository.
 5. Append the JSON entry above to `community-plugins.json`.
-6. Open a pull request using the title and description above.
+6. Open a pull request using the upstream template. Do not remove any sections from the template.

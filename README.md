@@ -4,6 +4,10 @@ Author: `lbb2445`
 
 Memo Timeline Feed 是一个面向 Obsidian 的内容展示插件，用更强的视觉化方式重新组织笔记、日记和图片内容。
 
+## 界面截图
+
+![Memo Timeline Feed 截图](/Users/linbinbin/code/AI/obisdian-memo/screen.png)
+
 ## 核心功能
 
 ### 1. Timeline 时间轴视图

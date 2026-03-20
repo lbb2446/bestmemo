@@ -4,6 +4,8 @@ Author: `lbb2445`
 
 Memo Timeline Feed 是一个面向 Obsidian 的内容展示插件，用更强的视觉化方式重新组织笔记、日记和图片内容。
 
+它的目标不是替代 Obsidian 原生笔记列表，而是给你的 memo、时间轴记录、日记和图片内容提供一个更适合“浏览”和“回顾”的界面。
+
 ## 界面截图
 
 ![Memo Timeline Feed 截图](./screen.png)
@@ -60,6 +62,22 @@ Memo Timeline Feed 是一个面向 Obsidian 的内容展示插件，用更强的
 
 然后在 Obsidian 的社区插件中启用 **Memo Timeline Feed**。
 
+## 使用方式
+
+1. 在你想进入时间轴的笔记中添加 `#timeline`
+2. 在日记笔记中使用 `#diary`，或者把它们放进你设置的日记文件夹
+3. 在笔记中插入图片，例如 `![[image.png]]` 或 `![](https://...)`
+4. 在 Obsidian 中执行命令 `Open memo timeline feed`
+5. 在视图里切换 `Timeline`、`Diary Feed`、`Photos`
+
+## 插件设置
+
+- `Timeline tag`：定义哪些笔记进入时间轴
+- `Diary tag`：定义哪些笔记进入日记流
+- `Diary folder`：指定一个目录作为日记来源
+- `Daily note filename pattern`：通过正则识别日期型日记文件名
+- `Maximum cards`：限制页面最大渲染卡片数量
+
 ## 数据来源规则
 
 - Timeline 笔记：匹配配置中的 `timelineTag`
@@ -72,3 +90,21 @@ Memo Timeline Feed 是一个面向 Obsidian 的内容展示插件，用更强的
 - 日记流展示
 - 图片日记 / 视觉相册
 - 个人 memo 的沉浸式浏览
+
+## 发布检查
+
+当前仓库已经包含 Obsidian 社区插件提交前要求的核心文件：
+
+- `README.md`
+- `LICENSE`
+- `manifest.json`
+- `main.js`
+- `styles.css`
+
+如果要正式提交到 Obsidian 社区插件目录，下一步还需要：
+
+1. 在 GitHub 上创建 `1.0.0` release
+2. 保证 release tag 与 `manifest.json` 中的版本一致
+3. 将 `main.js`、`manifest.json`、`styles.css` 上传为 release 附件
+4. 到 `obsidian-releases` 仓库的 `community-plugins.json` 新增插件条目
+5. 创建 PR，标题使用 `Add plugin: Memo Timeline Feed`

@@ -6,7 +6,7 @@ Memo Timeline Feed 是一个面向 Obsidian 的内容展示插件，用更强的
 
 ## 界面截图
 
-![Memo Timeline Feed 截图](/Users/linbinbin/code/AI/obisdian-memo/screen.png)
+![Memo Timeline Feed 截图](./screen.png)
 
 ## 核心功能
 

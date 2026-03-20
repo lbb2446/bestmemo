@@ -7,7 +7,7 @@
   "id": "memo-timeline-feed",
   "name": "Memo Timeline Feed",
   "author": "lbb2445",
-  "description": "Display #timeline notes, diary-style feeds, and image-only galleries in a polished Obsidian view.",
+  "description": "Display #timeline notes, diary-style feeds, and image-only galleries in a polished note view.",
   "repo": "lbb2446/bestmemo"
 }
 ```
@@ -25,7 +25,7 @@ Add plugin: Memo Timeline Feed
 
 ## Summary
 
-Adds `Memo Timeline Feed`, an Obsidian plugin for browsing notes in three visual modes:
+Adds `Memo Timeline Feed`, a plugin for browsing notes in three visual modes:
 
 - Timeline view for notes tagged with `#timeline`
 - Diary Feed view for daily notes and diary-style content
@@ -47,7 +47,7 @@ Adds `Memo Timeline Feed`, an Obsidian plugin for browsing notes in three visual
 
 ## Submission Steps
 
-1. Push `main` and `v1.0.0` to GitHub.
+1. Push `main` and `1.0.0` to GitHub.
 2. Create a GitHub release with tag `1.0.0`.
 3. Upload `main.js`, `manifest.json`, and `styles.css` as release assets.
 4. Fork or open the Obsidian community plugins repository.
